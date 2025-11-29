@@ -1,5 +1,3 @@
-Here are your structured notes. I have designed this as a clean Markdown (MD) file that you can copy, save, and read for your interview preparation.I have used Spring Boot for the code examples, as it is the industry standard for Java Backends.Markdown# Handling High Concurrency in Java APIs: Interview Notes
-
 ## 1. The Core Concept (The "Why")
 **The Problem:** When thousands of users hit your API at the exact same time, the server runs out of resources (Threads, CPU, RAM, or DB Connections).
 **The Goal:** We need to **Reject** excess traffic, **Defer** slow tasks, and **Reuse** previous results.
